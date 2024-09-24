@@ -1,6 +1,6 @@
 const { status } = require('init');
 const mysql = require('mysql2');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { error, Console } = require('console');
 const { json } = require('stream/consumers');
 const { connect } = require('http2');
