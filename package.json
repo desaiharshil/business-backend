@@ -4,12 +4,13 @@
   "main": "APIController.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node APImain.js"
+    "start": "node APImain.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.21.0",
     "vercel": "^37.5.4"
   }
 }
