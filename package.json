@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "main": "APIController.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node APImain.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "vercel": "^37.5.4"
+  }
 }
